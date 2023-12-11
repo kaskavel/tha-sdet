@@ -31,6 +31,9 @@ import isVisible from '../support/check/isDisplayed.js';
 import waitFor from '../support/action/waitFor.js';
 import waitForVisible from '../support/action/waitForDisplayed.js';
 import checkIfElementExists from '../support/lib/checkIfElementExists.js';
+import checkConnection from '../support/check/checkConnection.js';
+import checkSource from '../support/check/checkSource.js';
+import checkConnectionEnabledOrEnable from '../support/check/checkConnectionEnabledOrEnable.js';
 
 Then(
     /^I expect that the title is( not)* "([^"]*)?"$/,
@@ -190,4 +193,19 @@ Then(
 Then(
     /^I expect that a (alertbox|confirmbox|prompt)( not)* contains the text "([^"]*)?"$/,
     checkModalText
+);
+
+Then(
+    /^I am at Connections Page$/,
+    checkConnection
+);
+
+Then(
+    /^I am at Sources Page$/,
+    checkSource
+);
+
+Then(
+    /^I check if connection is enabled or I enable it$/,
+    checkConnectionEnabledOrEnable
 );

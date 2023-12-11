@@ -101,7 +101,7 @@ export const config: WebdriverIO.Config = {
     baseUrl: 'https://app.rudderstack.com/',
     //
     // Default timeout for all waitFor* commands.
-    waitforTimeout: 10000,
+    waitforTimeout: 15000,
     //
     // Default timeout in milliseconds for request
     // if browser driver or grid doesn't send response
@@ -181,7 +181,7 @@ export const config: WebdriverIO.Config = {
         // <boolean> add cucumber tags to feature or scenario name
         tagsInTitle: false,
         // <number> timeout for step definitions
-        timeout: 20000,
+        timeout: 60000,
     } as WebdriverIO.CucumberOpts,
     ...hooks,
 };

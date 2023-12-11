@@ -17,7 +17,7 @@ import setCookie from '../support/action/setCookie.js';
 import setInputField from '../support/action/setInputField.js';
 import setPromptText from '../support/action/setPromptText.js';
 import switchIFrame from '../support/action/switchIFrame.js';
-import setInputFieldFromEnv from "../support/action/setInputFieldFromEnv.js";
+import setInputFieldFromEnv from '../support/action/setInputFieldFromEnv.js';
 
 When(
     /^I (click|doubleclick) on the (link|button|element) "([^"]*)?"$/,
