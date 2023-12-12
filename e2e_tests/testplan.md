@@ -1,4 +1,6 @@
 # Test Plan: P2 - UI Test for Rudderstack App
+## Test Environment
+- **Testing Framework:** Webdriverio
 
 ## Feature: P2 - UI test
 As a Developer in Test, I want to test if a connection exists between source and destination, and if it does not exist, create a new connection.
