@@ -34,7 +34,7 @@ npm run test
 Notes: You may find more API tests description in the testplan, but not all tests described there were materialized, 
 mainly because they would use more or less the same approach as the ones presented here and for the purpose of this 
 exercise there is a limited benefit in expanding the scope of testing. SQL injection tests have been kept to an 
-absolute minimum since this is againts a prod environment. Follow-up API tests using the bearer tokens would be straight 
+absolute minimum since this is against a prod environment. Follow-up API tests using the bearer tokens would be straight 
 forward to implement. 
 
 

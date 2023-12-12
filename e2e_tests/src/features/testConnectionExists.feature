@@ -1,6 +1,6 @@
 Feature: P2 - UI test
     As a Developer in Test
-    I want to test if the if a connection exists between source and destination and
+    I want to test if a connection exists between source and destination and
     if it does not exist to create a new connection
 
     Scenario: login to rudderstack app and check connection between source and destination
